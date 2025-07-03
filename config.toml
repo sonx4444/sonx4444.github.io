@@ -1,0 +1,48 @@
+base_url = "https://sonx4444.github.io"
+title = "sonx4444"
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
+minify_html = true
+
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+
+[link_checker]
+internal_level = "warn"
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+highlight_themes_css = [
+  { theme = "ayu-dark", filename = "syntax-theme-dark.css" },
+  { theme = "ayu-light", filename = "syntax-theme-light.css" },
+]
+
+[extra]
+use_cdn = false
+theme = "toggle"
+
+menu = [
+  { name = "/posts", url = "/posts", weight = 1 },
+  { name = "/tags", url = "/tags", weight = 2 },
+]
+
+socials = [
+  { name = "twitter", url = "https://x.com/sonx4444", icon = "twitter" },
+  { name = "github", url = "https://github.com/sonx4444/", icon = "github" },
+  { name = "rss", url = "/atom.xml", icon = "rss" },
+]
+
+[extra.taxonomies]
+sort_by = "name"
+reverse = false
+
+[extra.analytics]
+enabled = true
+
+[extra.analytics.goatcounter]
+user = "sonx4444"
+
+[extra.analytics.umami]
+website_id = "74344cd8-1e87-4c38-8acd-f96049b8f07e"
