@@ -239,17 +239,17 @@ Below are some screenshots to illustrate the process and results:
 
 *The converted DLL is executed using `rundll32`, calling the exported function.*
 
-### 3. Inspecting the DLL in a PE Reader
-
-![PE Reader view of the DLL](images/pe-reader-view-of-dll.png)
-
-*The converted DLL opened in a PE file reader, showing the new export directory and DLL flag.*
-
-### 4. System Informer Showing the DLL Loaded
+### 3. System Informer Showing the DLL Loaded
 
 ![System Informer showing DLL loaded](images/system-informer-showing-dll-loaded.png)
 
 *System Informer confirms the DLL is loaded into the process space via `rundll32`.*
+
+### 4. Inspecting the DLL in a PE Reader
+
+![PE Reader view of the DLL](images/pe-reader-view-of-dll.png)
+
+*The converted DLL opened in a PE file reader, showing the new export directory and DLL flag.*
 
 ## Conclusion
 
