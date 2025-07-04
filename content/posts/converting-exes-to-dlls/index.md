@@ -249,7 +249,7 @@ Below are some screenshots to illustrate the process and results:
 
 ![PE Reader view of the DLL](images/pe-reader-view-of-dll.png)
 
-*The converted DLL opened in a PE file reader, showing the new export directory and DLL flag.*
+*The converted DLL opened in a PE file reader, showing the new export directory.*
 
 ## Conclusion
 
